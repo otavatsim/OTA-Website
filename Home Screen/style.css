@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.top-bar {
+  background-color: #009640; /* green */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+}
+
+.top-bar h1 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.top-bar nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  padding: 20px;
+}
+
+.left-card {
+  background: #fdfdfd;
+  border: 2px solid #009640;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.left-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ad {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.fly {
+  background: #17a2b8;
+  color: white;
+  padding: 16px;
+}
+
+.fly img {
+  width: 80%;
+}
+
+.moon {
+  background: #000;
+  color: white;
+  padding: 16px;
+}
+
+.moon img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.moon .sponsor {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+footer {
+  background: #009640;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin-top: 20px;
+}
